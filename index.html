@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wanderly — Travel Beyond Limits</title>
+
+    <meta
+        name="description"
+        content="Wanderly is your premium travel agency for unforgettable destinations, tours and travel packages."
+    >
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header" id="header">
+
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </span>
+
+                <span>Wanderly</span>
+            </a>
+
+            <nav class="nav" id="nav">
+
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#destinations" class="nav-link">Destinations</a>
+                <a href="#packages" class="nav-link">Packages</a>
+                <a href="#offers" class="nav-link">Offers</a>
+                <a href="#contact" class="nav-link">Contact</a>
+
+            </nav>
+
+            <div class="nav-actions">
+
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <a href="#contact" class="sign-in">
+                    Sign In
+                </a>
+
+                <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <span class="hero-badge">
+                        <i class="fa-solid fa-earth-americas"></i>
+                        Explore the world
+                    </span>
+
+                    <h1>
+                        Travel Beyond
+                        <span>Limits.</span>
+                    </h1>
+
+                    <p>
+                        Discover breathtaking destinations, unforgettable
+                        experiences and carefully designed trips made for you.
+                    </p>
+
+                </div>
+
+
+                <!-- SEARCH BOX -->
+
+                <div class="search-box">
+
+                    <div class="search-tabs">
+
+                        <button class="search-tab active" data-type="flights">
+                            <i class="fa-solid fa-plane"></i>
+                            Flights
+                        </button>
+
+                        <button class="search-tab" data-type="hotels">
+                            <i class="fa-solid fa-hotel"></i>
+                            Hotels
+                        </button>
+
+                        <button class="search-tab" data-type="tours">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            Tours
+                        </button>
+
+                    </div>
+
+
+                    <div class="search-fields">
+
+                        <div class="search-field">
+
+                            <label>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Destination
+                            </label>
+
+                            <input
+                                type="text"
+                                id="destinationInput"
+                                placeholder="Where do you want to go?"
+                            >
+
+                        </div>
+
+
+                        <div class="search-field">
+
+                            <label>
+                                <i class="fa-regular fa-calendar"></i>
+                                Check in
+                            </label>
+
+                            <input
+                                type="date"
+                                id="dateInput"
+                            >
+
+                        </div>
+
+
+                        <div class="search-field">
+
+                            <label>
+                                <i class="fa-solid fa-user-group"></i>
+                                Travelers
+                            </label>
+
+                            <select id="travelersInput">
+
+                                <option value="1">1 Traveler</option>
+                                <option value="2" selected>2 Travelers</option>
+                                <option value="3">3 Travelers</option>
+                                <option value="4">4 Travelers</option>
+                                <option value="5">5 Travelers</option>
+                                <option value="6">6 Travelers</option>
+                                <option value="7">7 Travelers</option>
+                                <option value="8">8 Travelers</option>
+
+                            </select>
+
+                        </div>
+
+
+                        <button class="search-button" id="searchButton">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            Search
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= DESTINATIONS ================= -->
+
+        <section class="section destinations-section" id="destinations">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="section-label">
+                            TOP DESTINATIONS
+                        </span>
+
+                        <h2>
+                            Places worth
+                            <span>exploring.</span>
+                        </h2>
+
+                    </div>
+
+                    <a href="#packages" class="view-all">
+                        View all
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+
+                <div class="destination-grid">
+
+
+                    <!-- TOKYO -->
+
+                    <article class="destination-card">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1000&q=85"
+                            alt="Tokyo Japan"
+                        >
+
+                        <div class="destination-info">
+
+                            <h3>Tokyo</h3>
+
+                            <p>Japan</p>
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                120+ experiences
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- SEOUL -->
+
+                    <article class="destination-card">
+
+                        <img
+                            src="https://static.fram.fr/photos/vacances-coree/seoul/seoul-au-pays-du-matin-calme-mysterieuse-coree_781970_panohd.jpg"
+                            alt="Seoul South Korea"
+                        >
+
+                        <div class="destination-info">
+
+                            <h3>Seoul</h3>
+
+                            <p>South Korea</p>
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                95+ experiences
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- BALI -->
+
+                    <article class="destination-card">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1000&q=85"
+                            alt="Bali Indonesia"
+                        >
+
+                        <div class="destination-info">
+
+                            <h3>Bali</h3>
+
+                            <p>Indonesia</p>
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                150+ experiences
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PARIS -->
+
+                    <article class="destination-card">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1000&q=85"
+                            alt="Paris France"
+                        >
+
+                        <div class="destination-info">
+
+                            <h3>Paris</h3>
+
+                            <p>France</p>
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                180+ experiences
+                            </span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PACKAGES ================= -->
+
+        <section class="section packages-section" id="packages">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="section-label">
+                            TRAVEL PACKAGES
+                        </span>
+
+                        <h2>
+                            Trips designed
+                            <span>for you.</span>
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="package-grid">
+
+
+                    <!-- PACKAGE 1 -->
+
+                    <article class="package-card">
+
+                        <div class="package-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1000&q=85"
+                                alt="Tokyo travel package"
+                            >
+
+                            <span class="package-tag">
+                                BEST SELLER
+                            </span>
+
+                            <button
+                                class="favorite-btn"
+                                aria-label="Add to favorites"
+                            >
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                        </div>
+
+
+                        <div class="package-content">
+
+                            <div class="package-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                Tokyo, Japan
+                            </div>
+
+                            <h3>
+                                Tokyo Discovery
+                            </h3>
+
+                            <p>
+                                Experience modern Tokyo, traditional temples,
+                                incredible food and unforgettable nightlife.
+                            </p>
+
+                            <div class="package-bottom">
+
+                                <div>
+
+                                    <small>
+                                        From
+                                    </small>
+
+                                    <strong>
+                                        $899
+                                    </strong>
+
+                                </div>
+
+                                <span>
+                                    7 days
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PACKAGE 2 -->
+
+                    <article class="package-card">
+
+                        <div class="package-image">
+
+                            <img
+                                src="https://static.fram.fr/photos/vacances-coree/seoul/seoul-au-pays-du-matin-calme-mysterieuse-coree_781970_panohd.jpg"
+                                alt="Seoul travel package"
+                            >
+
+                            <span class="package-tag">
+                                POPULAR
+                            </span>
+
+                            <button
+                                class="favorite-btn"
+                                aria-label="Add to favorites"
+                            >
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                        </div>
+
+
+                        <div class="package-content">
+
+                            <div class="package-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                Seoul, South Korea
+                            </div>
+
+                            <h3>
+                                Seoul Adventure
+                            </h3>
+
+                            <p>
+                                Discover Korean culture, K-pop districts,
+                                delicious food and the lights of Seoul.
+                            </p>
+
+                            <div class="package-bottom">
+
+                                <div>
+
+                                    <small>
+                                        From
+                                    </small>
+
+                                    <strong>
+                                        $799
+                                    </strong>
+
+                                </div>
+
+                                <span>
+                                    6 days
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PACKAGE 3 -->
+
+                    <article class="package-card">
+
+                        <div class="package-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1000&q=85"
+                                alt="Bali travel package"
+                            >
+
+                            <span class="package-tag">
+                                RELAX
+                            </span>
+
+                            <button
+                                class="favorite-btn"
+                                aria-label="Add to favorites"
+                            >
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                        </div>
+
+
+                        <div class="package-content">
+
+                            <div class="package-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                Bali, Indonesia
+                            </div>
+
+                            <h3>
+                                Bali Escape
+                            </h3>
+
+                            <p>
+                                Relax on beautiful beaches and explore temples,
+                                waterfalls and tropical landscapes.
+                            </p>
+
+                            <div class="package-bottom">
+
+                                <div>
+
+                                    <small>
+                                        From
+                                    </small>
+
+                                    <strong>
+                                        $699
+                                    </strong>
+
+                                </div>
+
+                                <span>
+                                    5 days
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PACKAGE 4 -->
+
+                    <article class="package-card">
+
+                        <div class="package-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1000&q=85"
+                                alt="Paris travel package"
+                            >
+
+                            <span class="package-tag">
+                                ROMANTIC
+                            </span>
+
+                            <button
+                                class="favorite-btn"
+                                aria-label="Add to favorites"
+                            >
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                        </div>
+
+
+                        <div class="package-content">
+
+                            <div class="package-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                Paris, France
+                            </div>
+
+                            <h3>
+                                Paris Romance
+                            </h3>
+
+                            <p>
+                                Walk along the Seine, visit iconic landmarks
+                                and enjoy authentic French cuisine.
+                            </p>
+
+                            <div class="package-bottom">
+
+                                <div>
+
+                                    <small>
+                                        From
+                                    </small>
+
+                                    <strong>
+                                        $999
+                                    </strong>
+
+                                </div>
+
+                                <span>
+                                    7 days
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= OFFER ================= -->
+
+        <section class="offer-section" id="offers">
+
+            <div class="container">
+
+                <div class="offer-box">
+
+                    <div class="offer-content">
+
+                        <span class="offer-label">
+                            LIMITED TIME OFFER
+                        </span>
+
+                        <h2>
+                            Your next adventure
+                            <br>
+                            starts with <span>20% OFF.</span>
+                        </h2>
+
+                        <p>
+                            Get 20% off selected international travel packages.
+                            Book your next adventure today.
+                        </p>
+
+                        <a href="#packages" class="offer-button">
+                            Explore Packages
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+
+                    <div class="offer-decoration">
+
+                        <i class="fa-solid fa-plane"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= WHY US ================= -->
+
+        <section class="section why-section">
+
+            <div class="container">
+
+                <div class="section-heading centered">
+
+                    <span class="section-label">
+                        WHY WANDERLY
+                    </span>
+
+                    <h2>
+                        Travel made
+                        <span>simple.</span>
+                    </h2>
+
+                    <p>
+                        Everything you need for a stress-free journey.
+                    </p>
+
+                </div>
+
+
+                <div class="features-grid">
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-shield-heart"></i>
+                        </div>
+
+                        <h3>
+                            Safe & Secure
+                        </h3>
+
+                        <p>
+                            Your bookings and personal information are
+                            protected with secure technology.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-tags"></i>
+                        </div>
+
+                        <h3>
+                            Best Prices
+                        </h3>
+
+                        <p>
+                            Get competitive prices and exclusive travel
+                            deals without hidden fees.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+
+                        <h3>
+                            24/7 Support
+                        </h3>
+
+                        <p>
+                            Our travel experts are always available to
+                            help you whenever you need us.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+
+                        <h3>
+                            Global Experiences
+                        </h3>
+
+                        <p>
+                            Discover carefully selected destinations and
+                            unforgettable local experiences.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= REVIEWS ================= -->
+
+        <section class="section reviews-section">
+
+            <div class="container">
+
+                <div class="section-heading centered">
+
+                    <span class="section-label">
+                        TRAVELERS LOVE US
+                    </span>
+
+                    <h2>
+                        Stories from
+                        <span>our travelers.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="reviews-grid">
+
+                    <article class="review-card">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            “Wanderly made our Seoul trip incredibly easy.
+                            Everything was organized perfectly and the
+                            experience was amazing.”
+                        </p>
+
+                        <div class="review-user">
+
+                            <div class="avatar">
+                                A
+                            </div>
+
+                            <div>
+                                <strong>
+                                    Alex Morgan
+                                </strong>
+
+                                <span>
+                                    Seoul, South Korea
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="review-card">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            “The Bali package was exactly what we needed.
+                            Beautiful hotel, great activities and excellent
+                            support.”
+                        </p>
+
+                        <div class="review-user">
+
+                            <div class="avatar">
+                                S
+                            </div>
+
+                            <div>
+                                <strong>
+                                    Sophia Lee
+                                </strong>
+
+                                <span>
+                                    Singapore
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="review-card">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            “Booking our Tokyo holiday was simple and the
+                            price was excellent. I would definitely use
+                            Wanderly again.”
+                        </p>
+
+                        <div class="review-user">
+
+                            <div class="avatar">
+                                D
+                            </div>
+
+                            <div>
+                                <strong>
+                                    Daniel Kim
+                                </strong>
+
+                                <span>
+                                    Canada
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= NEWSLETTER ================= -->
+
+        <section class="newsletter-section">
+
+            <div class="container">
+
+                <div class="newsletter-box">
+
+                    <div>
+
+                        <span class="section-label">
+                            TRAVEL INSPIRATION
+                        </span>
+
+                        <h2>
+                            Get travel deals
+                            <span>in your inbox.</span>
+                        </h2>
+
+                        <p>
+                            Subscribe for travel inspiration, exclusive
+                            offers and destination guides.
+                        </p>
+
+                    </div>
+
+
+                    <form class="newsletter-form" id="newsletterForm">
+
+                        <input
+                            type="email"
+                            id="emailInput"
+                            placeholder="Enter your email address"
+                            required
+                        >
+
+                        <button type="submit">
+                            Subscribe
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer" id="contact">
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+
+                <div class="footer-brand">
+
+                    <a href="#home" class="logo">
+
+                        <span class="logo-icon">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </span>
+
+                        <span>Wanderly</span>
+
+                    </a>
+
+                    <p>
+                        Making travel easier, more exciting and more
+                        memorable — one journey at a time.
+                    </p>
+
+
+                    <div class="social-links">
+
+                        <a href="#" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" aria-label="Twitter">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+
+                        <a href="#" aria-label="YouTube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <h4>
+                        Explore
+                    </h4>
+
+                    <a href="#destinations">
+                        Destinations
+                    </a>
+
+                    <a href="#packages">
+                        Packages
+                    </a>
+
+                    <a href="#offers">
+                        Offers
+                    </a>
+
+                    <a href="#home">
+                        Flights
+                    </a>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <h4>
+                        Company
+                    </h4>
+
+                    <a href="#contact">
+                        About Us
+                    </a>
+
+                    <a href="#contact">
+                        Contact
+                    </a>
+
+                    <a href="#contact">
+                        Careers
+                    </a>
+
+                    <a href="#contact">
+                        Privacy Policy
+                    </a>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <h4>
+                        Contact
+                    </h4>
+
+                    <a href="mailto:hello@wanderly.com">
+                        <i class="fa-solid fa-envelope"></i>
+                        hello@wanderly.com
+                    </a>
+
+                    <a href="tel:+1234567890">
+                        <i class="fa-solid fa-phone"></i>
+                        +1 234 567 890
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Seoul, South Korea
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    © <span id="currentYear"></span> Wanderly.
+                    All rights reserved.
+                </p>
+
+                <p>
+                    Made for travelers ✈
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
